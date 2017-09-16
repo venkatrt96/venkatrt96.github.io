@@ -1,6 +1,14 @@
 $(document).ready(function(){
-    $('.container h1').addClass('animated pulse');
-    $('#top button').show().addClass('animated lightSpeedIn');
+    $('.container h1').addClass('animated zoomIn');
+    $('#top button').show().addClass('animated slideInUp');
+
+    $('#gifs').on('click', function() {
+        $('html, body').animate({ scrollTop: $('.stuff').position().top }, 1500);
+    });
+
+    $('#home').on('click', function() {
+        $('.container').addClass('animated flash');
+    });
 
     $('#motto').typeIt({
         speed: 100,

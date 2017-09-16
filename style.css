@@ -243,12 +243,11 @@ body::-webkit-scrollbar-thumb {
     display: -webkit-flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-.footer table {
+.footer a, .footer p {
     width: 100%;
     text-align: center;
-}
-.footer td {
     padding-top: 30px;
     padding-bottom: 30px;
     border-bottom: 1px solid #8F8F8F;
