@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.container h1').addClass('animated zoomIn');
+    $('.container h1').addClass('animated pulse');
     $('#top button').show().addClass('animated slideInUp');
 
     $('#gifs').on('click', function() {
